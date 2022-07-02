@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset=""UTF-8">
+     <title>Array() 객체</title>
+    
+    </head>
+    <body>
+     
+        <script>
+
+         //new 연산자 이용한 배열을 생성합니다.
+         var array1 = new Array();
+         document.write("var array1 = new Array();의 자료형은  " + typeof array1 + "<br>");
+         //출력합니다.
+         //length : Array객체의 속성으로 배열 요소의 갯수를 의미합니다.
+         document.write("array1 배열 내용  : " + array1 + "<br>"
+                           + "   배열 크기   :  " + array1.length + "<hr>");
+
+         var  array2 = new Array(5);
+         array2[0] = 1;
+         array2[3] = 10;
+         array2[4] = 11;
+         document.write(array2[1] + "<br>");//undefined
+         document.write(array2[2] + "<br>");//undefined
+         document.write("array2 배열 내용 : " + array2 + "<br>"
+                           + "  배열 크기  : " + array2.length + "<hr>");
+
+       </script>
+       
+    </body>
+    </html>
